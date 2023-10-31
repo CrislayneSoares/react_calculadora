@@ -35,7 +35,7 @@ export default function CalculadoraV2 () {
             <p>{resultado}</p>
             <input type="number" onChange={pegarV1} />
             <input type="number" onChange={pegarV2} />
-            <div>
+            <div className="teclado">
                 <button onClick={soma} value={"+"}>+</button>
                 <button onClick={sub} value={"-"}>-</button>
                 <button onClick={divi} value={"/"}>/</button>

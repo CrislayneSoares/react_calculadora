@@ -23,6 +23,11 @@ const IndexStyle = styled.div`
     padding: 5px 15px;
     font-size: 1.3rem;
     cursor: pointer;
+
+    &:hover {
+      background-color: rgba(74, 61, 111, 0.5);
+      border-radius: 8px;
+    }
   }
 
   a {
